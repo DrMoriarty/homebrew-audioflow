@@ -1,9 +1,9 @@
 cask "audioflow" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "3.0.0"
-  sha256 arm:   "e3cb940f0aaa26a931cff9ce5c82b9ff7978bbb459aeb8e32693fc19db4843e0",
-         intel: "344ed13959a27548ded95ec3119aecb743505d1367d677b1083edb576a63c32f"
+  version "3.0.1"
+  sha256 arm:   "9f92f3fc8241b989dc7c7417d15ee57c3a004ffddd473555d9e17855f23761e7",
+         intel: "b6cc06b6d51151e030b9c8b20692e98b573afc73c73ac7302ffd032e49f3e9f9"
 
   url "https://github.com/DrMoriarty/AudioFlow3/releases/download/v#{version}/AudioFlow3-#{version}-macos-#{arch}.zip"
   name "AudioFlow"
